@@ -1,0 +1,62 @@
+:root {
+  --font-primaria: "Montserrat", sans-serif;
+  --font-secundária: "Butler", sans-serif;
+  --cor-v6: #160000;
+  --cor-v5: #000000;
+  --cor-v4: #2a2a2a;
+  --cor-v3: #3d2920;
+  --cor-v2: #b89b79;
+  --cor-v1: #d0b091;
+  --cor-v01:#fef5e3;
+  --cor-v0: #fffcf7;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* menus do site*/
+.header-bg {
+  background: var(--cor-v6);
+}
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 135px;
+  font-family: var(--font-secundária);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.66rem;
+  height: 80px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.menu-nav a {
+  color: var(--cor-v1);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  transition: 0.1s ease-out;
+}
+.menu-nav a:hover {
+  background: #b4a395;
+}
+.menu-nav li {
+  padding: 0px;
+  list-style: none;
+  flex: 1 200px 0;
+}
+/* responsivo da nav */
+@media (max-width: 800px) {
+  .menu-nav {
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin: 0px 35px 0px 0px;
+  }
+  .menu-nav li a {
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 0.5rem;
+  }
+}

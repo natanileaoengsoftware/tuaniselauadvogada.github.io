@@ -1,0 +1,157 @@
+/*formacao academica*/
+.formacao{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display:block ;
+}
+.formacao-bg {
+  background: var(--cor-v01);
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.subtitulo {
+  background: linear-gradient(180deg, #99732d 0%, #FFEAC3 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-primaria);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.4rem;
+ margin: 110px 80px 0px 80px;
+}
+.formacao-lista {
+  width: 650px;
+  display: grid;
+  margin: 60px 40px 0px 20px;
+}
+/*lista de formacao*/
+.formacao-lista li {
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  font-family: var(--font-secundária);
+  color: var(--cor-v3);
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  list-style: none;
+}
+.formacao-lista span{
+  color: var(--cor-v5); 
+margin: 0px 0px 15px 0px;
+}
+/*linha de divisao*/
+.Instituição {
+  border-bottom: 1px solid var(--cor-v3);
+}
+.Instituição:nth-last-child(1) {
+  border-bottom: none;
+}
+/*elemento  de decoracao do lado da lista de formacao*/
+.lista-1::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 8px;
+  background: linear-gradient(180deg, #99732d 0%, #EAD2A5 100%);
+  right: 640px;
+  bottom: 35px;
+}
+.lista-2::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 8px;
+  background: linear-gradient(180deg, #99732d 0%, #EAD2A5 100%);
+  right: 640px;
+  bottom: 55px;
+}
+.lista-3::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 8px;
+  background: linear-gradient(180deg, #99732d 0%, #EAD2A5 100%);
+  right: 640px;
+  bottom: 35px;
+}
+/*responsivo*/
+@media (max-width: 860px) {
+  .formacao-bg {
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 30px;
+ margin-left: 140px;
+  }
+  .formacao-lista {
+  width: 650px;
+  display: grid;
+  gap: 15px;
+  padding: 0px 0px 70px 60px;
+  }
+  .formacao-lista span{
+  margin: 5px 0px 0px 0px;
+  }
+  .lista-1::before {
+  right: 620px;
+  bottom: 15px; 
+  }
+  .lista-2::before {
+    right: 620px;
+    bottom: 55px; 
+    }
+    .lista-3::before {
+      right: 620px;
+      bottom: 15px; 
+      }
+}
+
+@media (max-width: 460px) {
+  .subtitulo {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 50px;
+   margin-left: 60px;
+    } 
+    .formacao-lista {
+      width: 350px;
+      display: grid;
+      gap: 10px;
+      padding: 0px 0px 40px 20px;
+      }
+      .formacao-lista li {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+      }
+      .formacao-lista span{
+      font-size: 0.8rem;
+      line-height: 1rem;
+      }
+      .lista-1::before {
+      right: 340px;
+      bottom: 10px; 
+      width: 10px;
+      height: 4px;
+      }
+      .lista-2::before {
+        right: 340px;
+        bottom: 80px; 
+        width: 10px;
+        height: 4px;
+        }
+        .lista-3::before {
+          right: 340px;
+          bottom: 35px; 
+          width: 10px;
+          height: 4px;
+          }
+}
