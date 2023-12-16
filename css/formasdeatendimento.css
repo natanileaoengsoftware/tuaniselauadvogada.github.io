@@ -7,7 +7,7 @@
   align-content: center;
   height: 450px;
   width: 1200px;
-  margin: 0px -60px 0px 100px;
+  margin: 0px auto;
 }
 /*cada atendimento separado*/
 .virtual {
@@ -102,14 +102,14 @@
   color: var(--cor-v4);
 }
 /*responsivo das formas de atendimentos*/
-@media(max-width: 860px) {
-  .antendimentos{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-content: center;
-  height: 400px;
-  width: 800px;
-  margin: 0px 100px 0px 0px;
+@media (max-width: 860px) {
+  .antendimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    height: 400px;
+    width: 800px;
+    margin: 0px 100px 0px 0px;
   }
   .virtual {
     margin: 10px 10px;
@@ -117,33 +117,33 @@
     padding: 10px 6px 40px 10px;
     height: 220px;
   }
-  .agilidade{
+  .agilidade {
     margin: 10px 10px;
     gap: 10px;
     padding: 10px 6px 40px 10px;
-    height: 220px; 
+    height: 220px;
   }
-  .especializado{
+  .especializado {
     margin: 10px 10px;
     gap: 10px;
     padding: 10px 6px 40px 10px;
     height: 220px;
   }
 
-  .antendimentos img{
+  .antendimentos img {
     height: 20px;
   }
 
-  .antendimentos p{
+  .antendimentos p {
     font-size: 0.82rem;
     line-height: 1.3rem;
   }
-  .antendimentos span{
+  .antendimentos span {
     font-size: 1 rem;
     line-height: 1.2rem;
   }
 }
-@media (max-width: 500px){
+@media (max-width: 500px) {
   .antendimentos {
     display: grid;
     grid-template-columns: 1fr;
@@ -158,23 +158,23 @@
     padding: 10px 6px 10px 10px;
     height: 170px;
   }
-  .agilidade{
-    margin: 10px 10px;
-    gap: 10px;
-    padding: 10px 6px 10px 10px;
-    height: 170px; 
-  }
-  .especializado{
+  .agilidade {
     margin: 10px 10px;
     gap: 10px;
     padding: 10px 6px 10px 10px;
     height: 170px;
   }
-  .antendimentos p{
+  .especializado {
+    margin: 10px 10px;
+    gap: 10px;
+    padding: 10px 6px 10px 10px;
+    height: 170px;
+  }
+  .antendimentos p {
     font-size: 0.82rem;
     line-height: 1.3rem;
   }
-  .antendimentos span{
+  .antendimentos span {
     font-size: 1rem;
     line-height: 1.1rem;
   }
