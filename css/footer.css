@@ -157,31 +157,31 @@ font-size: 1rem;
 }
 @media (max-width: 560px) {
   .footer-bg {
-    height: 720px;
-    display: grid;
-    grid-template-columns: 1fr;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+
   }
   .logo {
-    margin: 10px 0px 0px 30px;
-    padding: 10px 0px 0px 10px;
+    margin: 20px 0px 0px 50px;
   }
   .nome-oab {
-    margin: 10px 0px 0px -100px;
+    margin: 10px 50px 0px 0px;
   }
   .footer-endereco {
-    margin: -50px 0px 0px 60px;
+    margin: 30px 0px 0px 70px;
   }
   .footer-contato {
-    margin: -80px 0px 0px 32px;
+    margin: 10px 60px 0px 35px;
   }
   .footer-redes {
-    margin: -60px 100px 30px 100px;
+    margin: 15px 240px 0px 100px;
   }
   .footer-copy {
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1rem;
-    margin: -50px 0px 0px 0px;
+    margin: 20px 0px 0px 55px;
   }
 }
