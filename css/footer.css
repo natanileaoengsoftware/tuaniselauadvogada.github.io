@@ -155,27 +155,46 @@ font-size: 1rem;
   grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 460px) {
   .footer-bg {
-    height: 700px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-
   }
   .logo {
-    margin: 20px 0px 0px 50px;
+    margin: 10px 0px 0px 55px;
   }
   .nome-oab {
-    margin: 10px 50px 0px 0px;
+    margin: 10px 10px 0px 0px;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
   }
-  .footer-endereco {
-    margin: 30px 0px 0px 70px;
+
+  .footer-titulo{
+    font-size: 1rem;
+    line-height: 0.7rem;
+    margin: -20px 10px 0px 100px;
   }
-  .footer-contato {
-    margin: 10px 60px 0px 35px;
+  .rota{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    margin: 10px 10px 0px 70px;
+    text-align: center;
+  }
+  .titulo-contato{
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+    margin: -40px 0px 0px 90px;
+  }
+  .footer-informacoes a{
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    justify-content: center;
   }
   .footer-redes {
-    margin: 15px 240px 0px 100px;
+    margin: 15px 240px 0px 160px;
   }
   .footer-copy {
     font-size: 0.8rem;
