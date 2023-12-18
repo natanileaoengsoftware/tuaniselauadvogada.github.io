@@ -157,7 +157,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 460px) {
   .atendimento-bg {
     display: grid;
     grid-template-columns: 1fr;
@@ -167,14 +167,14 @@ body {
   } 
   .duvidas {
     margin: 25px 20px 10px 30px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
-    width: 380px;
+    width: 350px;
   }
   .tirar-duvidas {
     display: grid;
     margin-top: -50px;
-    margin-left: 40px;
+    margin-left: 30px;
     width: 350px;
     height: 350px;
     justify-content: center;

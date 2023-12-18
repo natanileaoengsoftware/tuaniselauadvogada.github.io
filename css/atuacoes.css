@@ -4,9 +4,9 @@
  flex-wrap: wrap;
  flex-direction: column;
   background: var(--cor-v0);
-  height: 1300px;
+  height: 1200px;
   max-width: 100%;
-  padding: 10px 10px;
+  margin: 100px 90px 0px 0px;
 }
 .tituloareas{
   font-family: var(--font-secundária);
@@ -70,13 +70,19 @@ margin: 0px 0px 20px 0px;
   .areasconteiner{
     display: flex;
     flex-direction: row;
-    height: 2100px; 
+    height: 1400px; 
   }
   .tituloareas{
     font-size: 1rem;
-    margin: 40px 10px 0px 110px;
+    margin: -40px 0px 0px 120px;
   } 
+  .direitos{
+    margin: -5px -40px 0px 40px;
+  }
   .direito{
-    font-size: 1.5rem;
+    font-size: 1rem;
   } 
+  .direitos p{
+    font-size: 0.8rem;  
+  }
 }
