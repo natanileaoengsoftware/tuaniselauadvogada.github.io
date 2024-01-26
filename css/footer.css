@@ -1,6 +1,6 @@
 .footer-bg {
   background: var(--cor-v2);
-  height: 350px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }

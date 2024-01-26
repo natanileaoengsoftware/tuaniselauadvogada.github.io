@@ -142,14 +142,14 @@
     line-height: 1.2rem;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 400px) {
   .antendimentos {
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
     height: 700px;
-    width: 380px;
-    margin: 0px 5px 0px 20px;
+    width: 360px;
+    margin: 0px 5px 0px 10px;
   }
   .virtual {
     margin: 0px 10px;
