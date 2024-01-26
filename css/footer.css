@@ -1,6 +1,6 @@
 .footer-bg {
   background: var(--cor-v2);
-  height: 400px;
+  height: 350px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -8,7 +8,7 @@
 .logo {
   width: 150px;
   height: 120px;
-  margin: 50px 0px 0px 100px
+  margin: 50px 0px 0px 65px
 }
 .nome-oab {
   font-family: var(--font-primaria);
@@ -55,7 +55,7 @@
     transition: border 0.4s;
 }
 .verrota:hover {
-  background: var(--cor-v2);
+  background: var(--cor-v01);
 }
 .verrota a {
   color: var(--cor-v1);
@@ -116,7 +116,7 @@ margin: -160px 0px 0px 40px;
   }
   .logo {
     margin: 20px 0px 0px 10px;
-    padding: 20px 0px 0px 10px;
+    padding: 20px 0px 0px 0px;
   }
   .nome-oab {
     margin: 10px 0px 0px 10px;
@@ -150,9 +150,9 @@ font-size: 1rem;
     margin: 0px 15px 20px 10px;  
 }
 .footer-redes {
-  margin: 0px 60px 0px 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: -160px 240px 0px 80px;
   }
 }
 @media (max-width: 460px) {

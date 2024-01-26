@@ -109,7 +109,6 @@
     align-content: center;
     height: 400px;
     width: 800px;
-    margin: 0px 100px 0px 0px;
   }
   .virtual {
     margin: 10px 10px;
@@ -143,14 +142,14 @@
     line-height: 1.2rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 460px) {
   .antendimentos {
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
     height: 700px;
     width: 380px;
-    margin: 0px 5px 0px 15px;
+    margin: 0px 5px 0px 20px;
   }
   .virtual {
     margin: 0px 10px;
