@@ -108,7 +108,7 @@ margin-bottom: 2rem;
 .botao a{
   color: var(--cor-3);
   font-family: var(--texto);
-font-size: 1rem;
+font-size: 1.3rem;
 }
 .botao{
 background-color: var(--cor-4);
