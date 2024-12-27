@@ -1,3 +1,4 @@
+// Função para enviar para whar=ts o formulario
 function abrirWhatsapp() {
   const nome = document.getElementById('nome').value;
   const telefone = document.getElementById('telefone').value;
@@ -10,3 +11,21 @@ function abrirWhatsapp() {
     '*Mensagem*' + msg;
   window.open(url, '_blank');
 }
+
+ // Função JavaScript para abrir o link do Instagram
+ function abrirInstagram() {
+  window.open("https://www.instagram.com/tuaniselauadv/", "_blank", "noopener,noreferrer");
+}
+
+let produtos = document.getElementsByClassName("juridica");
+function clicaProdutos() {
+  Array.from(produtos).forEach((produto) => {
+    produto.addEventListener("click", function (event) {
+      event.preventDefault();
+      window.open(produto.href, "_blank", "noopener,noreferrer");
+    });
+  });
+}
+
+
+clicaProdutos();
